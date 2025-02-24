@@ -6,7 +6,7 @@
 /*   By: jcheron <jcheron@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/06 11:13:38 by jcheron           #+#    #+#             */
-/*   Updated: 2025/02/07 08:41:27 by jcheron          ###   ########.fr       */
+/*   Updated: 2025/02/07 15:53:14 by jcheron          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@
 int	main(int ac, char **av)
 {
 	if (ac < 2)
-		std::cout << FB << std::endl;
+		std::cout << FB;
 	else
 	{
 		std::string	str;
